@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object Finder Web App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src=’https://unpkg.com/ml5@latest/dist/ml5.min.js’></script>
+    
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="b.png">
+        <center>
+        <h1 class="btn btn-info" id="title">AI Object Finder</h1>
+        <br><br>
+        <p id="Note" class="btn btn-info">Note - The input name which you will give should match the name present in CoCossd model then only it will detect</p>
+        <br><br>
+        <input id="wordinput" type="text">
+        <br><br><br>
+        <button id="start1" class="btn btn-success">Start</button>
+        <br><br>
+        <h3 class="btn btn-danger" id="status">Status: <span id="statusresult"></span></h3>
+        <h3 class="btn btn-warning" id="objectstatus"></h3>
+
+        </center>
+<script src="main.js"></script>
+    </body>
+    </html>
